@@ -48,7 +48,7 @@
             <h3 class="box-title" style="color:#a78bfa;"><i class="bx bx-link-external" style="margin-right:5px;"></i>Links</h3>
           </div>
           <div class="box-body">
-            <p><a href="https://github.com/YOUR_GITHUB_USERNAME/obsidian-theme" target="_blank" style="color:#8b5cf6;">GitHub Repository</a></p>
+            <p><a href="https://github.com/strusxsure/obsidian-theme" target="_blank" style="color:#8b5cf6;">GitHub Repository</a></p>
             <p><a href="https://blueprint.zip" target="_blank" style="color:#8b5cf6;">Blueprint Framework</a></p>
           </div>
         </div>
