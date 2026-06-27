@@ -1,0 +1,19 @@
+# https://blueprint.zip/docs/configs/confyml
+
+info:
+  name: "Obsidian Theme"
+  identifier: "obsidian"
+  description: "A sleek dark theme with electric purple accents, glassmorphism effects, and a custom sidebar login page for Pterodactyl Panel."
+  version: "1.0.0"
+  target: "beta-2025-09"
+  author: "Obsidian"
+  icon: "assets/icon.svg"
+  website: "https://github.com/YOUR_GITHUB_USERNAME/obsidian-theme"
+
+admin:
+  view: "admin/view.blade.php"
+  css: "admin/admin.style.css"
+
+dashboard:
+  css: "client/client.style.css"
+  wrapper: "wrappers/dashboard.blade.php"
