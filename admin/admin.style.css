@@ -1,1 +1,227 @@
+/* Obsidian Theme - Admin Panel Styles */
 
+/* Admin body background */
+body {
+  background: #0a0a0f !important;
+}
+
+/* Sidebar navigation */
+.sidebar-menu,
+.skin-blue .main-sidebar,
+.skin-blue .left-side {
+  background: #0d0d1a !important;
+}
+
+.sidebar-menu > li > a {
+  color: #94a3b8 !important;
+  border-left: 3px solid transparent !important;
+  transition: all 0.2s ease !important;
+}
+
+.sidebar-menu > li > a:hover {
+  color: #e2e8f0 !important;
+  background: rgba(139, 92, 246, 0.08) !important;
+  border-left-color: rgba(139, 92, 246, 0.3) !important;
+}
+
+.sidebar-menu > li.active > a,
+.sidebar-menu > li.menu-open > a {
+  color: #a78bfa !important;
+  background: rgba(139, 92, 246, 0.12) !important;
+  border-left-color: #8b5cf6 !important;
+}
+
+.sidebar-menu > li .treeview-menu {
+  background: rgba(10, 10, 15, 0.5) !important;
+}
+
+.sidebar-menu > li .treeview-menu > li > a {
+  color: #64748b !important;
+}
+
+.sidebar-menu > li .treeview-menu > li > a:hover {
+  color: #a78bfa !important;
+  background: rgba(139, 92, 246, 0.08) !important;
+}
+
+/* Top navbar / header */
+.main-header {
+  background: #12121a !important;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.15) !important;
+}
+
+.main-header .logo {
+  background: #0d0d1a !important;
+}
+
+.main-header .navbar {
+  background: #12121a !important;
+}
+
+/* Content area */
+.content-wrapper {
+  background: #0a0a0f !important;
+}
+
+/* Boxes */
+.box {
+  background: #16162a !important;
+  border: 1px solid rgba(139, 92, 246, 0.12) !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+
+.box-header {
+  background: transparent !important;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.12) !important;
+}
+
+.box-header.with-border {
+  border-bottom: 1px solid rgba(139, 92, 246, 0.12) !important;
+}
+
+.box-body {
+  color: #e2e8f0 !important;
+}
+
+.box-title,
+.box-header h3 {
+  color: #f1f5f9 !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #8b5cf6 !important;
+  border-color: #7c3aed !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-primary:hover {
+  background: #a78bfa !important;
+  border-color: #8b5cf6 !important;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3) !important;
+}
+
+.btn-danger {
+  background: #ef4444 !important;
+  border-color: #dc2626 !important;
+  border-radius: 8px !important;
+}
+
+.btn-default {
+  background: #1a1a2e !important;
+  border: 1px solid rgba(139, 92, 246, 0.2) !important;
+  color: #e2e8f0 !important;
+  border-radius: 8px !important;
+}
+
+.btn-default:hover {
+  background: #1e1e3a !important;
+  border-color: #8b5cf6 !important;
+}
+
+/* Tables */
+.table > thead > tr > th {
+  background: #12121a !important;
+  color: #94a3b8 !important;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.15) !important;
+}
+
+.table > tbody > tr > td {
+  color: #e2e8f0 !important;
+  border-top: 1px solid rgba(139, 92, 246, 0.08) !important;
+}
+
+.table > tbody > tr:hover > td {
+  background: rgba(139, 92, 246, 0.05) !important;
+}
+
+/* Input fields */
+.form-control {
+  background: #0a0a0f !important;
+  border: 1px solid rgba(139, 92, 246, 0.2) !important;
+  color: #e2e8f0 !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.form-control:focus {
+  border-color: #8b5cf6 !important;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15) !important;
+}
+
+/* Pagination */
+.pagination > li > a {
+  background: #16162a !important;
+  border-color: rgba(139, 92, 246, 0.15) !important;
+  color: #94a3b8 !important;
+}
+
+.pagination > li > a:hover {
+  background: #1e1e3a !important;
+  color: #a78bfa !important;
+}
+
+.pagination > .active > a {
+  background: #8b5cf6 !important;
+  border-color: #7c3aed !important;
+  color: white !important;
+}
+
+/* Text */
+.small-box .inner h3 {
+  color: #f1f5f9 !important;
+}
+
+.small-box .inner p {
+  color: #94a3b8 !important;
+}
+
+/* Code */
+pre, code {
+  background: #0a0a0f !important;
+  color: #a78bfa !important;
+  border: 1px solid rgba(139, 92, 246, 0.15) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a45;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6;
+}
+
+/* Treeview arrows */
+.sidebar-menu .treeview-menu > li > a {
+  padding-left: 32px !important;
+}
+
+/* Badge */
+.badge {
+  border-radius: 6px !important;
+}
+
+/* Extension page header fix */
+.content-header > h1 {
+  color: #f1f5f9 !important;
+}
+
+.content-header > .breadcrumb > li > a {
+  color: #8b5cf6 !important;
+}
+
+.content-header > .breadcrumb > li {
+  color: #64748b !important;
+}
