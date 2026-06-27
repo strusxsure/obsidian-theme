@@ -8,7 +8,7 @@ info:
   target: "beta-2025-09"
   author: "Obsidian"
   icon: "assets/icon.svg"
-  website: "https://github.com/YOUR_GITHUB_USERNAME/obsidian-theme"
+  website: "https://github.com/strusxsure/obsidian-theme"
 
 admin:
   view: "admin/view.blade.php"
